@@ -1,0 +1,14 @@
+{
+  "name": "laraws/google-calendar",
+  "description": "Google calendar php api",
+  "license": "MIT",
+  "require": {
+    "google/apiclient": "^2.0",
+    "phpunit/phpunit": "^9.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  }
+}
